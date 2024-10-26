@@ -1,7 +1,8 @@
 import { onMount } from 'solid-js';
 import { EditorState } from '@codemirror/state';
-import { EditorView, basicSetup } from '@codemirror/basic-setup';
+import { EditorView } from '@codemirror/view';
 import { html } from '@codemirror/lang-html';
+import { basicSetup } from '@codemirror/basic-setup';
 
 function Editor(props) {
   let editorRef;

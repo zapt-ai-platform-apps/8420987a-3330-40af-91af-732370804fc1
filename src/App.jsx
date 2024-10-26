@@ -6,8 +6,8 @@ function App() {
   const [code, setCode] = createSignal('');
 
   return (
-    <div class="h-full flex flex-col">
-      <header class="flex items-center justify-between p-4 bg-gray-800 text-white">
+    <div class="min-h-screen flex flex-col text-gray-800">
+      <header class="flex items-center justify-between p-4 bg-purple-600 text-white">
         <h1 class="text-2xl font-bold">تطبيق إنشاء صفحات HTML عربي</h1>
       </header>
       <main class="flex flex-1 overflow-hidden flex-col md:flex-row">
